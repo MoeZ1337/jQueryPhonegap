@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>Practice Project</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" src="js/ajax.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="panel" id="left-panel" data-theme="b">
+			<ul data-role="listview" id="contacts" data-theme="d">
+				<li data-icon="delete">
+					<a href="#" data-rel="close">Close</a>
+				</li>
+				<li data-role="list-divider">Select a Contact</li>
+			</ul>
+		</div>
+
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<a href="#left-panel" data-icon="bars" data-role="button" data-iconpos="notext">Menu</a>
+  			<h1>Edit Contact</h1>
+  			<a data-role="button" data-icon="check" data-iconpos="notext">Save</a>
+		</div>
+		<div data-role="content" class="content">
+			<h1 id="current-name">Doctor Phil</h1>
+			<p id="current-job">Doctor of things not actually doctor related</p>
+			<p id="current-phone-number">555-555-5555</p>
+			<div class="ui-field-contain">
+				<fieldset data-role="controlgroup">
+					<legend>Add button enabled:</legend>
+					<input type="checkbox" id="checkbox-1" class="custom">
+					<label for="checkbox-1">Enable</label>
+				</fieldset>
+			</div>
+			<input id="color-button" type="button" value="Add color">
+		</div>
+		<div class="result"></div>
+	</div>
+</body>
+</html>

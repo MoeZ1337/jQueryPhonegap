@@ -1,0 +1,38 @@
+[	
+	{
+		"personName" : "Caitlin Hyland",
+		"job" : "HR",
+		"phone" : 4241453392,
+		"textColor" : "pink"
+	},
+	{	
+		"personName" : "Jeff Backofen",
+		"job" : "Student", 
+		"phone" : 1231233211,
+		"textColor" : "red"
+	},
+	{	
+		"personName" : "Sarvesh Joshi",
+		"job" : "Software Dev",
+		"phone" : 9929583924,
+		"textColor" : "orange"
+	},
+	{	
+		"personName" : "Prachi Ghadge",
+		"job" : "Software Dev",
+		"phone" : 3295392934,
+		"textColor" : "purple"
+	},
+	{	
+		"personName" : "Manasa Tumkur",
+		"job" : "Software Dev",
+		"phone" : 4392934952,
+		"textColor" : "green"
+	},
+	{	
+		"personName" : "Muhammad Zaman",
+		"job" : "Software Dev",
+		"phone" : 4953945093,
+		"textColor" : "blue"
+	}
+]
